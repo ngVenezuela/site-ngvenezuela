@@ -1,3 +1,22 @@
+commit e3b60f1405972ae29642466e582493c03ba2991e
+Merge: 04cd418 435bdf1
+Author: abr4xas <me@abr4xas.org>
+Date:   Thu Jun 18 20:51:50 2015 -0430
+
+    Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
+
+commit 04cd41856ecb71d27502ae01dd19d7701efb87f1
+Author: abr4xas <me@abr4xas.org>
+Date:   Thu Jun 18 20:50:41 2015 -0430
+
+    Actualizando repo, agregado lista de recursos
+
+commit 435bdf14d5bf65f2150b96fcad466b2d203fe446
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Thu Jun 18 20:39:43 2015 -0430
+
+    Replace master branch with page content via GitHub
+
 commit f22fa003eb0cc61974704a31c333f6c8a283d1b4
 Author: abr4xas <me@abr4xas.org>
 Date:   Thu Jun 18 20:38:54 2015 -0430
