@@ -6,6 +6,10 @@
 Si eres desarrollador de AngularJS padawan o Jedi, únete a nuestra comunidad.
 Encuentrános en [Google Groups - AngularJS - VE](bit.ly/angularjs-ve) y comparte tus dudas, comentarios y conocimientos con nosotros.
 
+##### Participantes
+
+* @[villanuevand](http://twitter.com/villanuevand) Andrés Villanueva.
+* @[abr4xas](http://twitter.com/abr4xas) Angel Cruz
 
 ##### Recursos:
 
