@@ -11,4 +11,4 @@ Encuentrános en [Google Groups - AngularJS - VE](bit.ly/angularjs-ve) y compart
 
 * Directorio de API's
 
-Este repositorio está destinado para almacenar todas las API's públicas que podrían ser utilizadas en proyectos de la comunidad. [Ver recurso](/directorio-apis).
+Este repositorio está destinado para almacenar todas las API's públicas que podrían ser utilizadas en proyectos de la comunidad. [Ver recurso](https://github.com/angularjs-ve/directorio-apis).
