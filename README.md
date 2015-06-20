@@ -9,6 +9,8 @@ Encuentrános en:
 * [Google Groups - ngVenezuela](http://bit.ly/ng-venezuela-google-groups) 
 * [Facebook Group](https://www.facebook.com/groups/1597010370553856/)
 * Somos @[ngVenezuela](http://bit.ly/ng-venezuela-twitter) en twitter
+* Somos +[ngVenezuela](https://plus.google.com/u/0/communities/101255206052944039230) en G+
+* Somos +[ngVenezuela Comunidad Angular](https://www.youtube.com/channel/UCvmBKCMIiHsz6UVCLo-nuXA) en youtube
 
 y comparte tus dudas, comentarios y conocimientos con nosotros.
 
