@@ -1,15 +1,23 @@
 ![] (http://i.imgur.com/88FpuUJ.png)
-# angularjs-ve.github.io
+# ngvenezuela.github.io
 ---
-#### Repositorio del portal de la comunidad Angularjs-ve en Github.
+#### Repositorio del portal de la comunidad ngVenezuela en Github.
 
 Si eres desarrollador de AngularJS padawan o Jedi, únete a nuestra comunidad.
-Encuentrános en [Google Groups - AngularJS - VE](bit.ly/angularjs-ve) y comparte tus dudas, comentarios y conocimientos con nosotros.
+Encuentrános en:
+
+* [Google Groups - ngVenezuela](http://bit.ly/ng-venezuela-google-groups) 
+* [Facebook Group](https://www.facebook.com/groups/1597010370553856/)
+* Somos @[ngVenezuela](http://bit.ly/ng-venezuela-twitter) en twitter
+
+y comparte tus dudas, comentarios y conocimientos con nosotros.
 
 ##### Participantes
 
-* @[villanuevand](http://twitter.com/villanuevand) Andrés Villanueva.
-* @[abr4xas](http://twitter.com/abr4xas) Angel Cruz
+* @[villanuevand](https://github.com/Villanuevand) Andrés Villanueva.
+* @[abr4xas](http://github.com/abr4xas) Angel Cruz
+* @[skatox](http://github.com/skatox) Miguel Useche
+* @[alexsalas](https://github.com/alexsalas) Alexander Salas
 
 ##### Recursos:
 
