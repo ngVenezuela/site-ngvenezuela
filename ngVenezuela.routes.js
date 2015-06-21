@@ -9,21 +9,21 @@
         .run(removerCache);
 
     // Inyectando dependencias.
-    routes.$inject = ['$stateProvider','$urlRouterProvider'];
+    routes.$inject = ['$stateProvider','$urlRouterProvider','$locationProvider'];
     /**
      * @description gestiona las rutas de la aplicación.
      * @param $stateProvider
      * @param $urlRouterProvider
      */
-    function routes($stateProvider, $urlRouterProvider){
+    function routes($stateProvider, $urlRouterProvider, $locationProvider){
         $urlRouterProvider.otherwise('/');
         $stateProvider
             .state('home',{
                 url : '/',
                 templateUrl : 'home/home_tpl.html'
-            })
+            });
+        $locationProvider.html5Mode(true);
     }
-
     // Inyectando dependencias.
     removerCache.$inject = ['$rootScope', '$templateCache'];
     /**
