@@ -19,9 +19,11 @@
         $urlRouterProvider.otherwise('/');
         $stateProvider
             .state('home',{
-                url : '/',
-                templateUrl : 'home/home_tpl.html'
-            });
+            url : '/',
+            controller: 'HomeController',
+            controllerAs : 'ctrl',
+            templateUrl : 'templates/home/home_tpl.html'
+        });
         $locationProvider.html5Mode(true);
     }
     // Inyectando dependencias.

@@ -1,0 +1,24 @@
+/* TEAM */
+    Development:
+
+
+    Design
+    Angel Cruz
+    Twitter: @abr4xas
+    From: Valencia, Carabobo, Venezuela
+
+/* SITE */
+
+    New Theme:
+    Start Date:
+    Language:Spanish
+    Doctype:HTML 5 with CSS3
+    Tools:
+    IDE:
+
+/* Social MEDIA */
+
+    Site:
+    Facebook:
+    Twitter:
+    From: Valencia, Carabobo, Venezuela

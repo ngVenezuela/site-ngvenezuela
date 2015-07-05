@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /css
+Disallow: /img
+Disallow: /img/bg
+Disallow: /img/icons
+Disallow: /img/logo
+Disallow: /js
+Disallow: /js/home
+Disallow: /js/modules
+Disallow: /js/repos
+Disallow: /js/routes
+Disallow: /js/services
+Disallow: /templates
+Disallow: /templates/home

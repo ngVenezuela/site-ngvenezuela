@@ -13,6 +13,4 @@ $RECYCLE.BIN/
 ._*
 .Spotlight-V100
 .Trashes
-pblog
-pblog/*
-index.html
+bower_components
