@@ -4,7 +4,9 @@
 *
 *
 **/
-
+html {
+  box-sizing: border-box;
+}
 html,
 body{
     height: 100%;
@@ -47,6 +49,11 @@ img{
     height: auto;
     display: block;
 }
+.center{
+ margin:0 auto;
+    width:200px;
+    height:200px;
+}
 .center-block {
   display: block;
   margin-left: auto;
@@ -65,3 +72,8 @@ img{
 .btn{
     margin: 2px
 }
+/**/
+/**/
+/**/
+/**/
+/**/
