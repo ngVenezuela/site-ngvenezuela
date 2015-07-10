@@ -95,7 +95,6 @@
         <meta http-equiv="Cache-control" content="max-age=2592000, public">
         <meta http-equiv="content-style-type" content="text/css">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <base href="/">
         <!--[if IE]>
 <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
@@ -105,64 +104,71 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/furtive.min.css">
         <link rel="stylesheet" href="css/custom.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-        <script src="js/modules/ngVenezuela.module.js"></script>
-        <script src="js/routes/ngVenezuela.routes.js"></script>
-        <script src="js/services/github.service.js"></script>
-        <script src="js/home/ngVenezuela.controller.js"></script>
     </head>
     <body>
-    <header class="cd-header">
-        <div id="cd-logo">
-            <a href="#0">
-                <img src="http://i.imgur.com/88FpuUJ.png" class="flag img-responsive" alt="Venezuela Flag">
-            </a>
-        </div>
-        <nav class="cd-main-nav">
-            <ul>
-                <!-- inser more links here -->
-                <li>
-                    <a href="#0">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        Repos
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        Quienes Somos
-                    </a>
-                </li>
-                <li>
-                    <a href="foro.html">
-                        Foros
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        Contacto
-                    </a>
-                </li>
-            </ul>
-        </nav> <!-- cd-main-nav -->
-    </header>
+        <header class="cd-header">
+            <div id="cd-logo">
+                <a href="#0">
+                    <img src="http://i.imgur.com/88FpuUJ.png" class="flag img-responsive" alt="Venezuela Flag">
+                </a>
+            </div>
+            <nav class="cd-main-nav">
+                <ul>
+                    <!-- inser more links here -->
+                    <li>
+                        <a href="/">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            Repos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            Quienes Somos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="foro.html">
+                            Foros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav> <!-- cd-main-nav -->
+        </header>
         <section class="main-content">
-            <!-- Acá se muestran las vistas -->
-            <div data-ui-view></div>
+            <div class="bg--blue bg-img">
+                <div class="txt--center full-center">
+                    <iframe id="forum_embed"
+                            src="javascript:void(0)"
+                            scrolling="no"
+                            frameborder="0"
+                            width="90%"
+                            height="700">
+                    </iframe>
+                </div>
+            </div>
         </section>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>
-
-        jQuery(document).ready(function($){
+        <script type="text/javascript">
+jQuery(document).ready(function($){
     //open-close submenu on mobile
     $('.cd-main-nav').on('click', function(event){
         if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
     });
 });
+document.getElementById('forum_embed').src =
+    'https://groups.google.com/forum/embed/?place=forum/ngvenezuela&ngvenezuela.org.ve'
+    + '&showsearch=true&showpopout=true&showtabs=false'
+    + '&parenturl=' + encodeURIComponent(window.location.href);
         </script>
     </body>
 </html>
+
