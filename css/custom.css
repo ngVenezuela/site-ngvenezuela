@@ -82,6 +82,10 @@ a {
   color: #b4d7a8;
   text-decoration: none;
 }
+.foro{
+    margin-top: 90px;
+}
+
 
 /**/
 /**/
@@ -90,7 +94,7 @@ a {
 /**/
 /* --------------------------------
 
-Main components
+Menu components
 
 -------------------------------- */
 .cd-header {
