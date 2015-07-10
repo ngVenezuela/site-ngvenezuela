@@ -165,9 +165,9 @@ jQuery(document).ready(function($){
     });
 });
 document.getElementById("forum_embed").src =
-  "https://groups.google.com/forum/embed/?place=forum/ngvenezuela&showsearch:true&theme=default" +
+  "https://groups.google.com/forum/embed/?place=forum/ngvenezuela&domain=http://ngvenezuela.org.ve&showsearch:true&theme=default" +
   "&showsearch=true&showpopout=true&parenturl=" +
-  encodeURIComponent(window.location.href);
+  encodeURIComponent(window.location.protocol + '//' + window.location.host);
         </script>
     </body>
 </html>
