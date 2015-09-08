@@ -17,9 +17,10 @@ y comparte tus dudas, comentarios y conocimientos con nosotros.
 ##### Participantes
 
 * @[villanuevand](https://github.com/Villanuevand) Andrés Villanueva.
-* @[abr4xas](http://github.com/abr4xas) Angel Cruz
-* @[skatox](http://github.com/skatox) Miguel Useche
-* @[alexsalas](https://github.com/alexsalas) Alexander Salas
+* @[abr4xas](http://github.com/abr4xas) Angel Cruz.
+* @[skatox](http://github.com/skatox) Miguel Usech.
+* @[alexsalas](https://github.com/alexsalas) Alexander Salas.
+* @[jobsamuel](https://github.com/jobsamuel) Jobsamuel Núñez.
 
 ##### Recursos:
 
