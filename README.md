@@ -1,4 +1,4 @@
-![] (https://raw.githubusercontent.com/ngVenezuela/press-kit/master/img/logo/logo_Angular.jpg)
+![] (https://avatars1.githubusercontent.com/u/11722566?v=3&s=400)
 # ngvenezuela.github.io
 #### Repositorio del portal de la comunidad ngVenezuela en Github.
 
