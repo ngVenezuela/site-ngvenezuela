@@ -9,6 +9,7 @@
         .module('ng.venezuela')
         .controller('HomeController', Organizacion)
         .controller('RepoController', Repositorios)
+        .controller('QuienesSomosController',QuienesSomos);
     Organizacion.$inject = ['GitHub'];
     function Organizacion(GitHub) {
         var vm = this;
@@ -25,7 +26,7 @@
                 console.log(data);
             });
         }
-    };
+    }
     function Repositorios(GitHub) {
         var vm = this;
         vm.repositorios = {};
@@ -41,5 +42,9 @@
                 console.log(data);
             });
         }
-    };
+    }
+    function QuienesSomos(){
+
+    }
+
 })(); // fin main function
