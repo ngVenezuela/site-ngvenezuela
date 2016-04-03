@@ -35,6 +35,7 @@
         <link rel="dns-prefetch" href="//www.google-analytics.com"/>
         <link rel="dns-prefetch" href="//googleads.g.doubleclick.net"/>
         <link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
+        <link rel="dns-prefetch" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400">
         <link rel="canonical" href="http://ngvenezuela.org.ve/">
         <meta name="description" content="Bienvenidos a ngVenezuela. Somos una comunidad de desarrolladores y entusiastas de Angular en Venezuela. ¡Únete a nosotros!.">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
@@ -102,11 +103,13 @@
 <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/animate.min.css">
-        <link rel="stylesheet" href="css/furtive.min.css">
-        <link rel="stylesheet" href="css/custom.css">
+
+        <meta http-equiv="content-style-type" content="text/css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/screen.min.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.min.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400">
+        <link rel="stylesheet" type="text/css" href="css/grid.css">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
         <script src="js/modules/ngVenezuela.module.js"></script>
@@ -114,62 +117,87 @@
         <script src="js/services/github.service.js"></script>
         <script src="js/home/ngVenezuela.controller.js"></script>
     </head>
-    <body>
-        <header class="cd-header">
-            <div id="cd-logo">
-                <a ui-sref="home">
-                    <img src="http://i.imgur.com/88FpuUJ.png" class="flag img-responsive" alt="Venezuela Flag">
-                </a>
-            </div>
-            <nav class="cd-main-nav">
-                <ul>
-                    <!-- inser more links here -->
-                    <li>
-                        <a ui-sref="home">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a ui-sref="repos">
-                            Repos
-                        </a>
-                    </li>
-                    <li>
-                        <a ui-sref="quienes">
-                            Quienes Somos
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://groups.google.com/d/forum/ngvenezuela" title="Foros de: {{ ctrl.organizacion.name }}">
-                            Foros
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/blog">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#0">
-                            Contacto
-                        </a>
-                    </li>
-                </ul>
-            </nav> <!-- cd-main-nav -->
-        </header>
-        <section class="main-content">
+    <body class="home-template nav-closed" itemscope itemtype="http://schema.org/WebPage">
+        <meta itemprop="name" content="">
+        <meta itemprop="url" content="">
+        <meta itemprop="headline" content="">
+        <meta itemprop="description about" content="">
+        <meta itemprop="keywords" content="">
+        <meta itemprop="inLanguage" content="">
+        <nav class="nav">
+            <h3 class="nav-title">Menu</h3>
+            <a href="#" class="nav-close">
+                <span class="hidden">Close</span>
+            </a>
+            <ul role="menubar">
+                <!-- inser more links here -->
+                <li>
+                    <a ui-sref="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="repos">
+                        Repos
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="quienes">
+                        Quienes Somos
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://groups.google.com/d/forum/ngvenezuela" title="Foros de: {{ ctrl.organizacion.name }}">
+                        Foros
+                    </a>
+                </li>
+                <li>
+                    <a href="/blog" target="_blank">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+            <a class="subscribe-button" href='{{ SITEURL }}/{{ FEED_ALL_ATOM }}'  target="_blank">
+                Subscribe
+               <i class="fa fa-rss"></i>
+            </a>
+        </nav>
+        <span class="nav-cover"></span>
+        <div class="site-wrapper">
+            <header class="main-header post-head" style="background-image: url('img/bg/main-header.jpg');" itemscope itemtype="http://schema.org/WPHeader">
+                <nav class="main-nav overlay clearfix">
+                    <a class="menu-button" href="#">
+                        <span class="burger">&#9776;</span>
+                        <span class="word">Menu</span>
+                    </a>
+                </nav>
+                <div class="vertical">
+                    <div class="main-header-content inner">
+                        <h1 class="page-title" itemprop="headline">ngVenezuela</h1>
+                        <h2 class="page-description" itemprop="description">Comunidad de desarrolladores y entusiastas de Angular en Venezuela</h2>
+                    </div>
+                </div>
+            </header>
             <!-- Acá se muestran las vistas -->
             <div data-ui-view></div>
-        </section>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>
-
-            jQuery(document).ready(function($){
-                //open-close submenu on mobile
-                $('.cd-main-nav').on('click', function(event){
-                    if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
-                });
-            });
-        </script>
+            <footer class="site-footer clearfix" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+                <section class="copyright">
+                    <a itemprop="url" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+                        CC Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+                </section>
+                <section class="poweredby">
+                    Proudly published with
+                    <a itemprop="url" href="https://getpelican.org" target="_blank">Pelican</a>
+                </section>
+            </footer>
+        </div>
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fitvids.min.js"></script>
+        <script type="text/javascript" src="js/index.min.js"></script>
     </body>
 </html>
