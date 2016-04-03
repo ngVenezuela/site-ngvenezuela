@@ -1,134 +1,61 @@
-commit 48c038cfc6c1dfbe16df1836137878400928b909
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 21:02:53 2015 -0430
-
-    Actualizando repo, agregado lista de participantes
-
-commit f0dfe1d369bc16874a4cadfadd1c5aa10cacf5fa
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Thu Jun 18 20:58:44 2015 -0430
-
-    Replace master branch with page content via GitHub
-
-commit 11d5049579902061b5a32116eaff9ff9f5619ebf
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:58:17 2015 -0430
-
-    Actualizando repo, agregado lista de participantes
-
-commit d4f7b979dfd192ecc720e8deab7602a901eb107f
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:56:28 2015 -0430
-
-    Actualizando repo, editando colores en el css
-
-commit 2290ee0d97645fcc01f3a7af764e45fc8de7bce2
-Merge: 3bc7e9d bcb9ef6
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:56:21 2015 -0430
-
-    Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
-
-commit 3bc7e9d0a9ceb74836ed0996b9dcb1a77154aff8
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:56:07 2015 -0430
-
-    Actualizando repo, editando colores en el css
-
-commit bcb9ef60d8d5da208d567bec0ffcb60f40990752
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Thu Jun 18 20:53:18 2015 -0430
-
-    Replace master branch with page content via GitHub
-
-commit d2daf4e8b7771a4960f96620935f74e9aaba87e3
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:52:50 2015 -0430
-
-    Actualizando repo, agregado lista de recursos
-
-commit efcbaa81dbddef842de8e124ed7e52acac24ffd3
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:52:03 2015 -0430
-
-    Actualizando repo, agregado lista de recursos
-
-commit e3b60f1405972ae29642466e582493c03ba2991e
-Merge: 04cd418 435bdf1
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:51:50 2015 -0430
-
-    Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
-
-commit 04cd41856ecb71d27502ae01dd19d7701efb87f1
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:50:41 2015 -0430
-
-    Actualizando repo, agregado lista de recursos
-
-commit 435bdf14d5bf65f2150b96fcad466b2d203fe446
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Thu Jun 18 20:39:43 2015 -0430
-
-    Replace master branch with page content via GitHub
-
-commit f22fa003eb0cc61974704a31c333f6c8a283d1b4
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:38:54 2015 -0430
-
-    Actualizando repo, agregado lista de recursos
-
-commit 8052d93181c9501aa0180aa681fa5c4f6976805f
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:37:01 2015 -0430
-
-    Actualizando repo
-
-commit ef52f8c8b52c74a17b584152372a622558257bee
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:35:01 2015 -0430
-
-    Actualizando repo
-
-commit 8e6e31d375afed074f192732ee5b88c5e5ee4f48
-Merge: c383aa3 0947942
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:34:54 2015 -0430
-
-    Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
-
-commit c383aa385c190dcc9cf4918f7067303a8092f9be
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:34:30 2015 -0430
-
-    Actualizando repo
-
-commit 09479421bae4da02e04d39e9655793fe43b32fa9
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Thu Jun 18 20:33:01 2015 -0430
-
-    Replace master branch with page content via GitHub
-
-commit dade4e8e224434f7c1a6c0f3b10edf570ed88e91
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:32:12 2015 -0430
-
-    Actualizando repo
-
-commit 86a07a9809b16c5b91e69e17d2ca359d9b1f80d5
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Thu Jun 18 20:25:24 2015 -0430
-
-    Replace master branch with page content via GitHub
-
-commit 2a52506e303915ddd6089d76423e823eb334c78d
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 20:24:09 2015 -0430
-
-    Actualizando repo
-
-commit 088805f0e5cc796544785398d32a9e2062256b80
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Jun 18 19:42:04 2015 -0430
-
-    first commit
+* abr4xas 9065113 actualizando vista del foro
+* abr4xas bb65d7e actualizando vista del foro
+* abr4xas f47a4fc actualizando vista del foro
+* abr4xas 1ffd9a1 actualizando vista del foro
+* abr4xas 27448ca agregado cambios varios (foro)
+* abr4xas 001fbab agregado foro
+* Andrés Villanueva f4f76c0 Update CNAME
+* Andrés Villanueva 9cbe029 Create CNAME
+* abr4xas ddefd5a agregado menu bar, trabajando en el responsive
+* abr4xas 8f9a47b agregado menu bar, trabajando en el responsive
+* abr4xas 3be85b8 actualizando repo segun #14
+* abr4xas ab40e11 actualizando repo segun #14
+* abr4xas 2e3e9b5 actualizando repo segun #14
+* abr4xas a528694 actualizando repo
+* abr4xas d568d2f actualizando repo
+* ángel 7ac4e96 Replace master branch with page content via GitHub
+* Andrés Villanueva fcc8706 Delete CNAME
+* Andrés Villanueva a3cea3d Actualizado CNAME
+* Andrés Villanueva fcc9382 Creado CNAME
+*   Andrés Villanueva 8804ce9 Merge pull request #10 from Villanuevand/master
+|\  
+| * Villanuevand eded68b Habilitado modo Html5
+| * Villanuevand 0210684 Documentacion de codigo.
+| * Villanuevand f0e7459 Archivo de rutas de la aplicacion.
+| * Villanuevand 6c010b2 Separada estructura del inicio, a carpeta "home".
+| * Villanuevand e5adae5 Removido estructura html del inicio, y movido a home_tpl en /home
+| * Villanuevand c124996 Actualizado index.html para funcionar con angular
+| * Villanuevand 2fb7fc8 Agregado modulo de la aplicacion  y dependencia ui.router
+|/  
+* ángel d29080a Update README.md
+* ángel c1c7bca Update README.md
+* ángel 7e2a8ec Replace master branch with page content via GitHub
+* abr4xas b81bcc9 Actualizando repo, editando colores en el css
+* abr4xas 48c038c Actualizando repo, agregado lista de participantes
+* ángel f0dfe1d Replace master branch with page content via GitHub
+* abr4xas 11d5049 Actualizando repo, agregado lista de participantes
+* abr4xas d4f7b97 Actualizando repo, editando colores en el css
+*   abr4xas 2290ee0 Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
+|\  
+| * ángel bcb9ef6 Replace master branch with page content via GitHub
+* | abr4xas 3bc7e9d Actualizando repo, editando colores en el css
+|/  
+* abr4xas d2daf4e Actualizando repo, agregado lista de recursos
+* abr4xas efcbaa8 Actualizando repo, agregado lista de recursos
+*   abr4xas e3b60f1 Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
+|\  
+| * ángel 435bdf1 Replace master branch with page content via GitHub
+* | abr4xas 04cd418 Actualizando repo, agregado lista de recursos
+|/  
+* abr4xas f22fa00 Actualizando repo, agregado lista de recursos
+* abr4xas 8052d93 Actualizando repo
+* abr4xas ef52f8c Actualizando repo
+*   abr4xas 8e6e31d Merge branch 'master' of https://github.com/angularjs-ve/angularjs-ve.github.io
+|\  
+| * ángel 0947942 Replace master branch with page content via GitHub
+* | abr4xas c383aa3 Actualizando repo
+|/  
+* abr4xas dade4e8 Actualizando repo
+* ángel 86a07a9 Replace master branch with page content via GitHub
+* abr4xas 2a52506 Actualizando repo
+* abr4xas 088805f first commit

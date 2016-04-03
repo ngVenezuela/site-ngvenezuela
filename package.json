@@ -1,0 +1,40 @@
+{
+  "name": "ngvenezuela.github.io",
+  "version": "1.0.0",
+  "description": "Sitio web de la comunidad de Desarrolladores y Entusiastas de Angular en Venezuela",
+  "scripts": {
+    "dev": "live-server --port=3000 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngVenezuela/ngvenezuela.github.io.git"
+  },
+  "keywords": [
+    "ng-venezuela",
+    "angularjs",
+    "angular2",
+    "venezuela"
+  ],
+  "authors": [
+    "Andrés Villanueva <@villanuevand>",
+    "Angel Cruz <@abr4xas>",
+    "Jobsamuel Nuñez <@Jobsamuel>",
+    "Alexander Salas <@ajsb85>",
+    "José Manuel Espinoza <@jmespiz>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngVenezuela/ngvenezuela.github.io/issues"
+  },
+  "homepage": "https://github.com/ngVenezuela/ngvenezuela.github.io#readme",
+  "dependencies": {
+    "angular": "^1.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.3",
+    "live-server": "^0.9.2"
+  }
+}

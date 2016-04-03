@@ -5,6 +5,7 @@
     'use strict';
     angular
         .module('ng.venezuela',[
-            'ui.router'
+            'ui.router',
+            'github.ng.venezuela'
         ]);
 })();
