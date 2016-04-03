@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Sitio web de la comunidad de Desarrolladores y Entusiastas de Angular en Venezuela",
     "scripts": {
-        "dev": "live-server --port=3000 --host=localhost",
+        "dev": "live-server --port=3000 --host=0.0.0.0",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {

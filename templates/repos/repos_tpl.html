@@ -3,11 +3,14 @@
         <div class="grd-row-col-6 measure p2 center-block">
             <h3>Repos </h3>
             <p class="h4"> En esto estamos trabajando actualmente</p>
-            <div class="media py2">
+            <div class="media py2" ng-repeat="repo in ctrl.repositorios">
                 <div class="media-body">
-                    <h6 class="m0 p0">Nombre del repo</h6>
+                    <h6 class="m0 p0">{{ repo.full_name }}</h6>
                     <p class="m0 p0">
-                        Descripción del repo
+                        {{ repo.description }}
+                    </p>
+                    <p class="m0 p0">
+                       Para colaborar clic <a href="{{ repo.html_url }}" target="_blank">aquí</a>
                     </p>
                 </div>
             </div>

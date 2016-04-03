@@ -8,11 +8,11 @@
     angular
         .module('github.ng.venezuela',[])
         .constant('gh',{
-            BASE    : 'https://api.github.com',
-            ORG     : '/orgs/ngVenezuela',
-            REPOS   : '/orgs/ngVenezuela/repos',
-            MEMBERS : '/orgs/ngVenezuela/members'
-        })
+        BASE    : 'https://api.github.com',
+        ORG     : '/orgs/ngVenezuela',
+        REPOS   : '/orgs/ngVenezuela/repos',
+        MEMBERS : '/orgs/ngVenezuela/members'
+    })
         .factory('GitHub',githubService);
 
     //Inyectando Dependencias

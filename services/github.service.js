@@ -6,18 +6,18 @@
 (function () {
     'use strict';
     angular
-        .module('github.ng.venezuela',[])
-        .constant('gh',{
-            BASE    : 'https://api.github.com',
-            ORG     : '/orgs/ngVenezuela',
-            REPOS   : '/orgs/ngVenezuela/repos',
-            MEMBERS : '/orgs/ngVenezuela/members'
-        })
-        .factory('GitHub',githubService);
+        .module('github.ng.venezuela', [])
+        .constant('gh', {
+        BASE    : 'https://api.github.com',
+        ORG     : '/orgs/ngVenezuela',
+        REPOS   : '/orgs/ngVenezuela/repos',
+        MEMBERS : '/orgs/ngVenezuela/members'
+    })
+        .factory('GitHub', githubService);
 
     //Inyectando Dependencias
-    githubService.$inject = ['$log','$http','gh'];
-    function githubService ($log, $http,gh) {
+    githubService.$inject = ['$log', '$http', 'gh'];
+    function githubService($log, $http, gh) {
         return {
             organizacion : getOrganizacion,
             repositorios : getRepos,
@@ -28,13 +28,13 @@
         * solicitando la información de ngVenezuela como
         * oganización.
         */
-        function getOrganizacion () {
+        function getOrganizacion() {
             var peticion = $http({
                 method : 'GET',
-                url : gh.BASE+gh.ORG
+                url : gh.BASE + gh.ORG
             });
             return peticion
-                .then(function(response){
+                .then(function (response) {
                 return response.data;
             })
                 .catch(function(response){
@@ -49,10 +49,10 @@
         function getRepos () {
             var peticion = $http({
                 method : 'GET',
-                url : gh.BASE+gh.REPOS
+                url : gh.BASE +gh.REPOS
             });
             return peticion
-                .then(function(response){
+                .then(function (response) {
                 return response.data;
             })
                 .catch(function(response){
@@ -69,7 +69,7 @@
                 .then(function(response){
                 return response.data;
             })
-                .catch(function(response){
+                .catch(function (response) {
                 $log.error('Error organizacion');
                 return response;
             });
