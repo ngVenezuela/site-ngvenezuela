@@ -1,29 +1,31 @@
 {
     "name": "ngVenezuela",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "homepage": "ngvenezuela.org.ve",
     "authors": [
-        "abr4xas <me@abr4xas.org>"
+        "Andrés Villanueva <@villanuevand>",
+        "Angel Cruz <@abr4xas>",
+        "Jobsamuel Nuñez <@Jobsamuel>",
+        "Alexander Salas <@ajsb85>",
+        "José Manuel Espinoza <@jmespiz>"
     ],
-    "description": "Sitio web de ngVenezuela",
+    "description": "Sitio web de la comunidad de Desarrolladores y Entusiastas de Angular en Venezuela",
     "main": "index.html",
     "moduleType": [
         "globals"
     ],
     "keywords": [
+        "ng-venezuela",
         "angularjs",
+        "angular2",
         "venezuela"
     ],
-    "license": "GPLv2",
+    "license": "ISC",
     "ignore": [
         "**/.*",
         "node_modules",
         "bower_components",
         "test",
         "tests"
-    ],
-    "dependencies": {
-        "furtive": "~2.2.1",
-        "animate.css": "~3.3.0"
-    }
+    ]
 }
