@@ -16,11 +16,11 @@
         vm.organizacion = {};
         execute();
         function execute(){
-          return ObtenerInformacion ();
+            return ObtenerInformacion();
         }
-        function ObtenerInformacion (){
+        function ObtenerInformacion() {
             return GitHub.organizacion()
-                .then(function(data){
+                .then(function(data) {
                 vm.organizacion = data;
                 return vm.organizacion;
                 console.log(data);
@@ -32,7 +32,7 @@
         vm.repositorios = {};
         execute();
         function execute(){
-          return ObtenerRepos ();
+            return ObtenerRepos ();
         }
         function ObtenerRepos (){
             return GitHub.repositorios()

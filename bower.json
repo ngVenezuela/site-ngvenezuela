@@ -1,29 +1,29 @@
 {
-  "name": "ngVenezuela",
-  "version": "0.0.1",
-  "homepage": "ngvenezuela.org.ve",
-  "authors": [
-    "abr4xas <me@abr4xas.org>"
-  ],
-  "description": "Sitio web de ngVenezuela",
-  "main": "index.html",
-  "moduleType": [
-    "globals"
-  ],
-  "keywords": [
-    "angularjs",
-    "venezuela"
-  ],
-  "license": "GPLv2",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "furtive": "~2.2.1",
-    "animate.css": "~3.3.0"
-  }
+    "name": "ngVenezuela",
+    "version": "0.0.1",
+    "homepage": "ngvenezuela.org.ve",
+    "authors": [
+        "abr4xas <me@abr4xas.org>"
+    ],
+    "description": "Sitio web de ngVenezuela",
+    "main": "index.html",
+    "moduleType": [
+        "globals"
+    ],
+    "keywords": [
+        "angularjs",
+        "venezuela"
+    ],
+    "license": "GPLv2",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "furtive": "~2.2.1",
+        "animate.css": "~3.3.0"
+    }
 }
