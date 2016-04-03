@@ -107,7 +107,7 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/furtive.min.css">
         <link rel="stylesheet" href="css/custom.css">
-<!--        <script src="node_modules/angular/angular.min.js"></script>-->
+        <!--        <script src="node_modules/angular/angular.min.js"></script>-->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
         <script src="js/modules/ngVenezuela.module.js"></script>
@@ -116,48 +116,48 @@
         <script src="js/home/ngVenezuela.controller.js"></script>
     </head>
     <body>
-    <header class="cd-header">
-        <div id="cd-logo">
-            <a ui-sref="home">
-                <img src="http://i.imgur.com/88FpuUJ.png" class="flag img-responsive" alt="Venezuela Flag">
-            </a>
-        </div>
-        <nav class="cd-main-nav">
-            <ul>
-                <!-- inser more links here -->
-                <li>
-                    <a ui-sref="home">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a ui-sref="repos">
-                        Repos
-                    </a>
-                </li>
-                <li>
-                    <a ui-sref="quienes">
-                        Quienes Somos
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="http://groups.google.com/d/forum/ngvenezuela" title="Foros de: {{ ctrl.organizacion.name }}">
-                        Foros
-                    </a>
-                </li>
-                <li>
-                    <a href="/blog">
-                        Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="#0">
-                        Contacto
-                    </a>
-                </li>
-            </ul>
-        </nav> <!-- cd-main-nav -->
-    </header>
+        <header class="cd-header">
+            <div id="cd-logo">
+                <a ui-sref="home">
+                    <img src="http://i.imgur.com/88FpuUJ.png" class="flag img-responsive" alt="Venezuela Flag">
+                </a>
+            </div>
+            <nav class="cd-main-nav">
+                <ul>
+                    <!-- inser more links here -->
+                    <li>
+                        <a ui-sref="home">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="repos">
+                            Repos
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="quienes">
+                            Quienes Somos
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://groups.google.com/d/forum/ngvenezuela" title="Foros de: {{ ctrl.organizacion.name }}">
+                            Foros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/blog">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav> <!-- cd-main-nav -->
+        </header>
         <section class="main-content">
             <!-- Acá se muestran las vistas -->
             <div data-ui-view></div>
@@ -165,12 +165,12 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>
 
-        jQuery(document).ready(function($){
-    //open-close submenu on mobile
-    $('.cd-main-nav').on('click', function(event){
-        if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
-    });
-});
+            jQuery(document).ready(function($){
+                //open-close submenu on mobile
+                $('.cd-main-nav').on('click', function(event){
+                    if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
+                });
+            });
         </script>
     </body>
 </html>

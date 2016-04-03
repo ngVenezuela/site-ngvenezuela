@@ -23,7 +23,7 @@ QuienesSomos, execute, ObtenerInformacion, ObtenerRepos*/
             return GitHub.organizacion()
                 .then(function (data) {
                 vm.organizacion = data;
-                console.log(data);
+                //console.log(data);
                 return vm.organizacion;
             });
         }
@@ -39,11 +39,10 @@ QuienesSomos, execute, ObtenerInformacion, ObtenerRepos*/
             return GitHub.repositorios()
                 .then(function (data) {
                 vm.repositorios = data;
-                console.log(data);
+                //console.log(data);
                 return vm.repositorios;
             });
         }
-
     }
     function QuienesSomos() {
 
