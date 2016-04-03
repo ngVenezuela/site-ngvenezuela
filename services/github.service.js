@@ -17,9 +17,9 @@
 
     //Inyectando Dependencias
     githubService.$inject = ['$log','$http','gh'];
-    function githubService ($log, $http,hg) {
+    function githubService ($log, $http,gh) {
         return {
-            organizacion : getOrganization,
+            organizacion : getOrganizacion,
             repositorios : getRepos,
             miembros     : getMembers
         };
@@ -28,19 +28,19 @@
         * solicitando la información de ngVenezuela como
         * oganización.
         */
-        function getOrganization () {
+        function getOrganizacion () {
             var peticion = $http({
                 method : 'GET',
                 url : gh.BASE+gh.ORG
             });
             return peticion
                 .then(function(response){
-                    return response.data;
-                })
+                return response.data;
+            })
                 .catch(function(response){
-                    $log.error('Error organizacion');
-                    return response;
-                });
+                $log.error('Error organizacion');
+                return response;
+            });
         }
         /**
         * @description realiza una petición a la API de Github
@@ -53,12 +53,12 @@
             });
             return peticion
                 .then(function(response){
-                    return response.data;
-                })
+                return response.data;
+            })
                 .catch(function(response){
-                    $log.error('Error organizacion');
-                    return response;
-                });
+                $log.error('Error organizacion');
+                return response;
+            });
         }
         function getMembers () {
             var peticion = $http({
@@ -67,12 +67,12 @@
             });
             return peticion
                 .then(function(response){
-                    return response.data;
-                })
+                return response.data;
+            })
                 .catch(function(response){
-                    $log.error('Error organizacion');
-                    return response;
-                });
+                $log.error('Error organizacion');
+                return response;
+            });
         }
     } // Fin githubService
 })();
