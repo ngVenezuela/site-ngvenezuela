@@ -1,30 +1,169 @@
 <!DOCTYPE html>
 <html lang="es" data-ng-app="ng.venezuela">
-  <head>
-    <meta charset="UTF-8">
-    <title>Angularjs-ve.GitHub.io by ngVenezuela</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <base href="/">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Angularjs-ve.GitHub.io</h1>
-      <h2 class="project-tagline">Repositorio del portal de la comunidad Angularjs-ve en Github.</h2>
-    </section>
+    <head>
+        <meta charset="UTF-8">
+        <title>ngVenezuela</title>
+        <link type="text/plain" rel="socialmedia" href="/socialmedia.txt">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+        <link rel="icon" type="image/png" href="img/icons/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="img/icons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="img/icons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/icons/favicon-16x16.png" sizes="16x16">
+        <link rel="shortcut icon" href="img/icons/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="">
+        <link rel="publisher" href="">
+        <link rel="apple-touch-startup-image" href="img/icons/logo.png">
+        <link rel="canonical" href="{{ article.url }}">
+        <link rel="dns-prefetch" href="//disqus.com"/>
+        <link rel="dns-prefetch" href="//a.disquscdn.com"/>
+        <link rel="dns-prefetch" href="//ngvenezuela.disqus.com"/>
+        <link rel="dns-prefetch" href="//glitter-services.disqus.com"/>
+        <link rel="dns-prefetch" href="http://ngvenezuela.org.ve/"/>
+        <link rel="dns-prefetch" href="//www.gstatic.com"/>
+        <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
+        <link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+        <link rel="dns-prefetch" href="//accounts.google.com"/>
+        <link rel="dns-prefetch" href="//ssl.google-analytics.com"/>
+        <link rel="dns-prefetch" href="//www.google-analytics.com"/>
+        <link rel="dns-prefetch" href="//googleads.g.doubleclick.net"/>
+        <link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
+        <link rel="canonical" href="http://ngvenezuela.org.ve/">
+        <meta name="description" content="Bienvenidos a ngVenezuela. Somos una comunidad de desarrolladores y entusiastas de Angular en Venezuela. ¡Únete a nosotros!.">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="application-name" content="ngVenezuela"/>
+        <meta name="msapplication-starturl" content="http:http://ngvenezuela.org.ve/"/>
+        <meta name="msapplication-tooltip" content=""/>
+        <meta name="msapplication-window" content="width=1024;height=768"/>
+        <meta name="msapplication-task" content="name=ngVenezuela;action-uri=http:http://ngvenezuela.org.ve/;icon-uri=img/icons/favicon.ico"/>
+        <meta name="msapplication-TileImage" content="img/icons/apple-icon-144x144.png"/>
+        <meta name="msapplication-TileColor" content="#1F1F21"/>
+        <meta name="application-name" content="ngVenezuela">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="google-site-verification" content="">
+        <meta name="alexaVerifyID" content=""/>
+        <meta name="wot-verification" content=""/>
+        <meta name="msvalidate.01" content="" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="medium" content="mult">
+        <meta name="adblock" content="disable">
+        <meta name="rating" content="General">
+        <meta name="resource-type" content="document">
+        <meta name="revisit-after" content="1 days">
+        <meta name="revisit" content="1">
+        <meta name="robots" content="index,follow">
+        <meta name="no-email-collection" content="http://www.unspam.com/noemailcollection/">
+        <meta property="fb:app_id" content="">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="ngVenezuela">
+        <meta property="og:url" content="http://ngvenezuela.org.ve/">
+        <meta property="og:description" content="">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="300">
+        <meta property="og:image" content="img/icons/logo.png">
+        <meta name="twitter:title" content="">
+        <meta name="twitter:description" content="">
+        <meta name="dcterms.language" content="es">
+        <meta name="dcterms.type" content="post">
+        <meta name="dcterms.source" content="">
+        <meta name="dcterms.publisher" content="">
+        <meta name="twitter:image" content="img/icons/logo.png">
+        <meta name="description" content="">
+        <meta name="dcterms.title" content="ngVenezuela">
+        <meta name="dcterms.description" content="">
+        <meta name="dcterms.language" content="es">
+        <meta name="dcterms.type" content="frontpage">
+        <meta name="dcterms.identifier" content="0">
+        <meta name="dcterms.source" content="http://ngvenezuela.org.ve/">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta http-equiv="pragma" content="cache">
+        <meta http-equiv="cache-control" content="cache">
+        <meta http-equiv="vary" content="content-language">
+        <meta http-equiv="Cache-control" content="max-age=2592000, public">
+        <meta http-equiv="content-style-type" content="text/css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <base href="/">
+        <!--[if IE]>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/furtive.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+        <script src="js/modules/ngVenezuela.module.js"></script>
+        <script src="js/routes/ngVenezuela.routes.js"></script>
+        <script src="js/services/github.service.js"></script>
+        <script src="js/home/ngVenezuela.controller.js"></script>
+    </head>
+    <body>
+    <header class="cd-header">
+        <div id="cd-logo">
+            <a ui-sref="home">
+                <img src="http://i.imgur.com/88FpuUJ.png" class="flag img-responsive" alt="Venezuela Flag">
+            </a>
+        </div>
+        <nav class="cd-main-nav">
+            <ul>
+                <!-- inser more links here -->
+                <li>
+                    <a ui-sref="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="repos">
+                        Repos
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="quienes">
+                        Quienes Somos
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://groups.google.com/d/forum/ngvenezuela" title="Foros de: {{ ctrl.organizacion.name }}">
+                        Foros
+                    </a>
+                </li>
+                <li>
+                    <a href="#0">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+        </nav> <!-- cd-main-nav -->
+    </header>
+        <section class="main-content">
+            <!-- Acá se muestran las vistas -->
+            <div data-ui-view></div>
+        </section>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>
 
-    <section class="main-content">
-        <!-- Acá se muestran las vistas -->
-       <div data-ui-view></div>
-    </section>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
-    <script src="ngVenezuela.module.js"></script>
-    <script src="ngVenezuela.routes.js"></script>
-  </body>
+        jQuery(document).ready(function($){
+    //open-close submenu on mobile
+    $('.cd-main-nav').on('click', function(event){
+        if($(event.target).is('.cd-main-nav')) $(this).children('ul').toggleClass('is-visible');
+    });
+});
+        </script>
+    </body>
 </html>
-

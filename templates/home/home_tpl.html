@@ -1,0 +1,21 @@
+<div class="bg--blue bg-img">
+    <div class="txt--center full-center">
+        <img ng-src="{{ ctrl.organizacion.avatar_url }}" alt="{{ ctrl.organizacion.name }}" class="img-responsive center-block img-logo animated bounceInDown">
+        <h1 class="h3 animated fadeIn delay-1">
+            <small class="small description">
+                {{ ctrl.organizacion.description }}
+            </small>
+        </h1>
+        <div class="my2 animated fadeIn delay-2">
+            <a ng-href="{{ ctrl.organizacion.html_url }}" target="_blank" class="w100--s my1 btn" title="{{ ctrl.organizacion.name }}">
+                <i class="fa fa-github-alt"></i> Github
+            </a>
+            <a ng-href="{{ ctrl.organizacion.blog }}" target="_blank" class="w100--s my1 btn" title="">
+                <i class="fa fa-google"></i> Google Groups
+            </a>
+            <a ng-href="mailto:{{ ctrl.organizacion.email }}" target="_blank" class="w100--s my1 btn" title="">
+                <i class="fa fa-envelope-o"></i> Correo
+            </a>
+        </div>
+    </div>
+</div>

@@ -19,8 +19,22 @@
         $urlRouterProvider.otherwise('/');
         $stateProvider
             .state('home',{
-                url : '/',
-                templateUrl : 'home/home_tpl.html'
+            url : '/',
+            controller: 'HomeController',
+            controllerAs : 'ctrl',
+            templateUrl : './templates/home/home_tpl.html'
+            })
+            .state('quienes',{
+                url: '/quienes-somos/',
+                controller: 'QuienesSomosController',
+                controllerAs: 'ctrl',
+                templateUrl: './templates/quienes/quienes_tpl.html'
+            })
+            .state('repos',{
+                url: '/repos/',
+                controller: 'RepoController',
+                controllerAs: 'ctrl',
+                templateUrl: './templates/repos/repos_tpl.html'
             });
         $locationProvider.html5Mode(true);
     }
