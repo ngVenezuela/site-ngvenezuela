@@ -1,29 +1,30 @@
 /**
  * Controladores de la aplicación.
  */
-
-(function (){
-
+/*jslint browser: true*/
+/*global $, angular, Organizacion, Repositorios,
+QuienesSomos, execute, ObtenerInformacion, ObtenerRepos*/
+(function () {
     'use strict';
     angular
         .module('ng.venezuela')
         .controller('HomeController', Organizacion)
         .controller('RepoController', Repositorios)
-        .controller('QuienesSomosController',QuienesSomos);
+        .controller('QuienesSomosController', QuienesSomos);
     Organizacion.$inject = ['GitHub'];
     function Organizacion(GitHub) {
         var vm = this;
         vm.organizacion = {};
         execute();
-        function execute(){
-          return ObtenerInformacion ();
+        function execute() {
+            return new ObtenerInformacion();
         }
-        function ObtenerInformacion (){
+        function ObtenerInformacion() {
             return GitHub.organizacion()
-                .then(function(data){
+                .then(function (data) {
                 vm.organizacion = data;
-                return vm.organizacion;
                 console.log(data);
+                return vm.organizacion;
             });
         }
     }
@@ -31,19 +32,19 @@
         var vm = this;
         vm.repositorios = {};
         execute();
-        function execute(){
-          return ObtenerRepos ();
+        function execute() {
+            return new ObtenerRepos();
         }
-        function ObtenerRepos (){
+        function ObtenerRepos() {
             return GitHub.repositorios()
-                .then(function(data){
+                .then(function (data) {
                 vm.repositorios = data;
+                //console.log(data);
                 return vm.repositorios;
-                console.log(data);
             });
         }
     }
-    function QuienesSomos(){
+    function QuienesSomos() {
 
     }
 
