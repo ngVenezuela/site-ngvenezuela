@@ -37,6 +37,12 @@
             controller: 'RepoController',
             controllerAs: 'ctrl',
             templateUrl: './templates/repos/repos_tpl.html'
+        })
+            .state('unirme', {
+            url: '/quiero-unirme/',
+/*            controller: 'QuienesSomosController',
+            controllerAs: 'ctrl',*/
+            templateUrl: './templates/unirme/unirme_tpl.html'
         });
         $locationProvider.html5Mode(true);
     }
