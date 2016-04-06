@@ -40,7 +40,7 @@
         })
             .state('unirme', {
             url: '/quiero-unirme/',
-/*            controller: 'QuienesSomosController',
+            /*            controller: 'QuienesSomosController',
             controllerAs: 'ctrl',*/
             templateUrl: './templates/unirme/unirme_tpl.html'
         });
