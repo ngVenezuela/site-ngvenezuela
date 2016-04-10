@@ -23,7 +23,7 @@ QuienesSomos, execute, ObtenerInformacion, ObtenerRepos*/
             return GitHub.organizacion()
                 .then(function (data) {
                 vm.organizacion = data;
-                console.log(data);
+                //console.log(data);
                 return vm.organizacion;
             });
         }
