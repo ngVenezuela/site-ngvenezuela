@@ -27,24 +27,24 @@
             templateUrl : './templates/home/home_tpl.html'
         })
             .state('quienes', {
-            url: '/quienes-somos/',
+            url: '/quienes-somos',
             controller: 'QuienesSomosController',
             controllerAs: 'ctrl',
             templateUrl: './templates/quienes/quienes_tpl.html'
         })
             .state('repos', {
-            url: '/repos/',
+            url: '/repos',
             controller: 'RepoController',
             controllerAs: 'ctrl',
             templateUrl: './templates/repos/repos_tpl.html'
         })
             .state('unirme', {
-            url: '/quiero-unirme/',
+            url: '/quiero-unirme',
             /*            controller: 'QuienesSomosController',
             controllerAs: 'ctrl',*/
             templateUrl: './templates/unirme/unirme_tpl.html'
         });
-        $locationProvider.html5Mode(true);
+        $locationProvider.html5Mode(false);
     }
     // Inyectando dependencias.
     removerCache.$inject = ['$rootScope', '$templateCache'];
