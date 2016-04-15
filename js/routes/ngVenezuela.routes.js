@@ -40,9 +40,11 @@
         })
             .state('unirme', {
             url: '/quiero-unirme',
-            /*            controller: 'QuienesSomosController',
-            controllerAs: 'ctrl',*/
             templateUrl: './templates/unirme/unirme_tpl.html'
+        })
+            .state('contacto', {
+            url: '/contacto',
+            templateUrl: './templates/contacto/contacto_tpl.html'
         });
         $locationProvider.html5Mode(false);
     }
