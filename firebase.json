@@ -7,7 +7,6 @@
       "database.rules.json",
       "node_modules",
       "src",
-      "templates",
       "CHANGELOG",
       "CNAME",
       "LICENSE",
