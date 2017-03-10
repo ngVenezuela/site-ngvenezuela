@@ -36,3 +36,6 @@ Status API Training Shop Blog About Pricing
 
 #Webstorm and IntelliJ IDES
 .idea/
+
+#Firebase Hosting Config
+.firebaserc
