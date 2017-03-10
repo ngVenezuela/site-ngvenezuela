@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      ".firebaserc",
+      "firebase.json",
+      "database.rules.json",
+      "node_modules",
+      "src",
+      "CHANGELOG",
+      "CNAME",
+      "LICENSE",
+      "README.md",
+      "contributors.txt",
+      "gulpfile.js",
+      "npm-debug.log",
+      "package.json"
+    ]
+  }
+}
