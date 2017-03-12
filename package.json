@@ -1,5 +1,5 @@
 {
-  "name": "ngvenezuela.github.io",
+  "name": "ngvenezuela",
   "version": "1.0.0",
   "description": "Sitio web de la comunidad de Desarrolladores y Entusiastas de Angular en Venezuela",
   "scripts": {
@@ -30,16 +30,16 @@
   "homepage": "https://github.com/ngVenezuela/ngvenezuela.github.io#readme",
   "dependencies": {
     "angular": "^1.5.8",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.4.2"
   },
   "devDependencies": {
     "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.12",
+    "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.0",
     "gulp-header": "^1.8.8",
     "gulp-size": "^2.1.0",
-    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.0.0"
   }
 }
