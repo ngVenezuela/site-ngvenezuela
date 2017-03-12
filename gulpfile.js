@@ -28,7 +28,7 @@ gulp.task('bundleJS', function () {
         .pipe(uglify())
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./js'))
+        .pipe(gulp.dest('./statics/js'))
         .pipe(browserSync.stream());
 });
 
@@ -45,7 +45,7 @@ gulp.task('my-app', function () {
         .pipe(size({ gzip: true, showFiles: true }))
         .pipe(header(banner, { pkg: pkg }))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./js'))
+        .pipe(gulp.dest('./statics/js'))
         .pipe(browserSync.stream());
 });
 
@@ -57,7 +57,7 @@ gulp.task('css', function () {
         .pipe(minifyCSS('*'))
         .pipe(concat('app.min.css'))
         .pipe(size({ gzip: true, showFiles: true }))
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('./statics/css'));
 });
 
 // Copiar archivos estaticos (icon fonts bootstrap/font-awesome)
@@ -67,11 +67,11 @@ gulp.task('static', function () {
     var myJs = './src/js/*.js';
 
     gulp.src([myFonts])
-        .pipe(gulp.dest('./fonts'));
+        .pipe(gulp.dest('./statics/fonts'));
     gulp.src([myImages])
-        .pipe(gulp.dest('./img'));
+        .pipe(gulp.dest('./statics/img'));
     gulp.src([myJs])
-        .pipe(gulp.dest('./js'));
+        .pipe(gulp.dest('./statics/js'));
 });
 
 // Default
